@@ -5,7 +5,7 @@
     * To assign - @white = #ffffff
     * To reference - just @white
 * Every symbol followed by lisp list e.g. url(/assets/images/qwe.png) tested for function declaration. One can use this for example to encode small images as base64.
-* Code reformatting
+* Reformats code
 
 ## TODO ##
 * Per file scoping
