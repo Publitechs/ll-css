@@ -192,8 +192,8 @@
         do (write-char #\Space))
   nil)
 
+(declaim (inline string-starts-with-p))
 (defun string-starts-with-p (datum str)
-  (declare #.*optimize*)
   (alexandria:starts-with-subseq datum str))
 
 
